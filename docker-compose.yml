@@ -1,0 +1,15 @@
+version:              "3"
+services:
+   ipfs:
+      build:          ./ipfs-docker
+      container_name: stellar-ipfs
+      volumes:
+        - ~/stellar/ipfs/staging:/export
+        - ~/stellar/ipfs/data:/data/ipfs
+      restart:        unless-stopped
+      ports:
+        - "4001:4001"
+        - "5001:5001"
+        - "8080:8080"
+      networks:
+          - default
