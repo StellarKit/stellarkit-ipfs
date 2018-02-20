@@ -15,7 +15,6 @@ RUN git clone --depth 1 --branch master https://github.com/ipfs/go-ipfs.git /go/
 # Also: fix getting HEAD commit hash via git rev-parse.
 # Also: allow using a custom IPFS API endpoint.
 RUN cd $SRC_DIR \
-  && mkdir .git/objects \
   && ([ -z "$GX_IPFS" ] || echo $GX_IPFS > /root/.ipfs/api) \
   && make build
 
