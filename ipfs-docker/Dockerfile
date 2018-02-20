@@ -9,7 +9,7 @@ MAINTAINER Lars Gierth <lgierth@ipfs.io>
 ENV GX_IPFS ""
 ENV SRC_DIR /go/src/github.com/ipfs/go-ipfs
 
-COPY . $SRC_DIR
+RUN git clone --depth 1 --branch master https://github.com/ipfs/go-ipfs.git /go/src/github.com/ipfs/go-ipfs
 
 # Build the thing.
 # Also: fix getting HEAD commit hash via git rev-parse.
