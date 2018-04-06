@@ -1,4 +1,4 @@
-## Stellar IPFS
+## StellarKit IPFS
 
 ### The simplest and cleanest Docker image for running ipfs
 
@@ -10,6 +10,8 @@ Build and run:
     docker-compose up -d
 
 Creates a folder 'stellar' in your home folder.  Everything is stored there, delete it to reset.
+
+Disclaimer: We not affiliated with, or sponsored or endorsed by, the Stellar Development Foundation.
 
 ### Donations
 
