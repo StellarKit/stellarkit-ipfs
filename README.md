@@ -11,7 +11,7 @@ Build and run:
 
 Creates a folder 'stellar' in your home folder.  Everything is stored there, delete it to reset.
 
-Disclaimer: We not affiliated with, or sponsored or endorsed by, the Stellar Development Foundation.
+Disclaimer: We are not affiliated with, or sponsored or endorsed by, the Stellar Development Foundation.
 
 ### Donations
 
